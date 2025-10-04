@@ -1,6 +1,6 @@
 // Declarar hash vacío
 const registro = {};
-
+ 
 // Utilidades
 function generarClaveUnica() {
   return `reg-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
